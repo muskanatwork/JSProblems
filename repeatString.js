@@ -1,9 +1,22 @@
-function sum(num) {
-    var answer =num
-        for (var i = 0; i < num; i++) {
-            answer = answer + num
+function repeat (str,num){
+    var answer = "";
+    if(num>=0){
+        for (var i=0; i<num;i++){
+            answer = answer +str;
         }
-        console.log(answer)
+console.log(answer);
+    }
+    else{
+        console.log("ERROR");
+    }
 }
-sum(4);
+repeat("hye",3)
+repeat("Meenu",1)
+repeat("Muskan",0)
+repeat("Neha",-2)
+
+
+
+
+
             
