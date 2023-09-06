@@ -15,6 +15,18 @@ repeat("Meenu",1)
 repeat("Muskan",0)
 repeat("Neha",-2)
 
+var sum = 0;
+function addAll(num) {
+    for (var add = 1; add <= num; add++) {
+        sum = sum + add;
+    }
+    console.log(sum);
+}
+addAll(6);
+
+
+
+
 
 
 
